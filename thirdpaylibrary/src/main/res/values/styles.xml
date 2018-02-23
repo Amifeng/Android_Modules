@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="MyProgressBar" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:layout_width">50.0dip</item>
+        <item name="android:layout_height">50.0dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar_drawable</item>
+    </style>
+
+</resources>

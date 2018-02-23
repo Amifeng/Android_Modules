@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ThirdPayLibrary</string>
+
+    <string name="alipay_account_exception">此帐号绑定的支付宝账户被冻结或不允许支付</string>
+    <string name="alipay_has_unbound">该用户已解除绑定</string>
+    <string name="alipay_order_canceled">支付已取消</string>
+    <string name="alipay_order_error">订单支付失败</string>
+    <string name="alipay_succeed">支付成功</string>
+    <string name="alipay_system_exception">支付系统异常</string>
+
+    <string name="operation_loading">正在跳转...</string>
+    <string name="operation_error">操作失败,请稍后再试</string>
+    <string name="order_paymenting">正在支付，请稍候…</string>
+    <string name="pay_error">支付失败</string>
+    <string name="pay_result_confirmed">支付结果确认中</string>
+    <string name="payment_succeed">恭喜您，支付成功！</string>
+    <string name="wxappinstalled">请先安装微信再进行支付</string>
+
+</resources>
