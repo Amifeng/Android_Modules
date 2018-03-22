@@ -21,7 +21,7 @@ public class VISAHtmlActivity extends Activity {
 
     private WebView webview;
 
-    private String order_sn = "";
+    //private String order_sn = "";
     private String visa_html = "";
 
 //    private String ht = "<html><head><metahttp-equiv="Content-Type"content="text/html; charset=utf-8"/></head><bodyonload="javascript:document.pay_form.submit();"><formid="pay_form"name="pay_form"action="https://gateway.test.95516.com/gateway/api/frontTransReq.do"method="post"><inputtype="hidden"name="version"id="version"value="5.1.0"/><inputtype="hidden"name="encoding"id="encoding"value="utf-8"/><inputtype="hidden"name="txnType"id="txnType"value="01"/><inputtype="hidden"name="txnSubType"id="txnSubType"value="01"/><inputtype="hidden"name="bizType"id="bizType"value="000201"/><inputtype="hidden"name="frontUrl"id="frontUrl"value="http://www.test.dev/pay/unionpay/mobile/demo/api_02_b2b/FrontReceive.php"/><inputtype="hidden"name="backUrl"id="backUrl"value="http://222.222.222.222:8080/upacp_demo_b2b/demo/api_02_b2b/BackReceive.php"/><inputtype="hidden"name="signMethod"id="signMethod"value="01"/><inputtype="hidden"name="channelType"id="channelType"value="08"/><inputtype="hidden"name="accessType"id="accessType"value="0"/><inputtype="hidden"name="currencyCode"id="currencyCode"value="156"/><inputtype="hidden"name="merId"id="merId"value="777290058110048"/><inputtype="hidden"name="orderId"id="orderId"value="20171225141734"/><inputtype="hidden"name="txnTime"id="txnTime"value="20171225141734"/><inputtype="hidden"name="txnAmt"id="txnAmt"value="1000"/><inputtype="hidden"name="payTimeout"id="payTimeout"value="20171225143942"/><inputtype="hidden"name="certId"id="certId"value="68759663125"/><inputtype="hidden"name="signature"id="signature"value="1ElgJqy48Itt+PzZOMT/BY+zd9P2jep6TqG8TSZVnuo17HAwuFHjU+tY/cOuJrtzJgkIt3K9UBpP94BhWJO/06wEjj0r0OBViTpn7PsMmp0thXIAPSqC8M1yu8CiyPRQRo7coWn9scb2iRWxOD5Gq6Vy6NUW/Xcmb2HZZIt70snwe2kJSf69pC6qDjYFdCBtBqf/jf62vXYkLFSU+hT+VsEBg2++rIoN5amc0Qk10uKwaAFz0eOTVRwCT6hCCHgtVeizIKgoif3JI9fUbLIGqu+mc79ABHrngCXh9hOWRZNWAJQB6LD5ohoibsiHf0yKzrsWgdGaTiOvNy8wUvUOYw=="/><!--<inputtype="submit"type="hidden">--></form></body></html>";
@@ -40,7 +40,7 @@ public class VISAHtmlActivity extends Activity {
     }
 
     private void mInit() {
-        order_sn = getIntent().getStringExtra("order_sn");
+        //order_sn = getIntent().getStringExtra("order_sn");
         visa_html = getIntent().getStringExtra("visa_html");
 
         webview = (WebView) findViewById(R.id.webview);
